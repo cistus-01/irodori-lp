@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>集合住宅・団地管理システム | 団地CRM</title>
+  <meta name="description" content="住戸・入居者・管理費・修繕履歴をひとつにまとめる。管理組合・不動産管理会社向けクラウドシステム。30日間無料トライアル。月額2,000円〜。">
+  <meta property="og:title" content="集合住宅・団地管理システム | 団地CRM">
+  <meta property="og:description" content="住戸・入居者・管理費・修繕履歴をひとつにまとめる。管理組合・不動産管理会社向けクラウドシステム。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cistus-01.github.io/irodori-lp/danchi/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://cistus-01.github.io/irodori-lp/danchi/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <style>
+    :root { --accent: #3b82f6; --dark: #0f172a; --text: #1e293b; }
+    body { color: var(--text); font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; }
+    .lp-nav { background: #fff; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 100; }
+    .lp-nav .brand { font-weight: 800; color: var(--dark); font-size: 1.1rem; }
+    .btn-trial { background: var(--accent); color: #fff; font-weight: 700; border: none; border-radius: 6px; padding: .5rem 1.25rem; }
+    .btn-trial:hover { background: #2563eb; color: #fff; }
+    .hero { background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #1e40af 100%); color: #fff; padding: 100px 0 80px; }
+    .hero-badge { background: #3b82f622; color: #93c5fd; border: 1px solid #3b82f644; display: inline-block; padding: .3rem .9rem; border-radius: 20px; font-size: .85rem; margin-bottom: 1.5rem; }
+    .mockup { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.15); border-radius: 12px; padding: 20px; }
+    .mock-stat { background: rgba(255,255,255,.08); border-radius: 8px; padding: 12px 16px; }
+    .pain-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; border-left: 4px solid #ef4444; }
+    .feature-icon { width: 48px; height: 48px; background: #3b82f622; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--accent); font-size: 1.4rem; margin-bottom: 12px; }
+    .price-card { border: 1px solid #e2e8f0; border-radius: 16px; padding: 32px 24px; background: #fff; }
+    .price-card.featured { border-color: var(--accent); box-shadow: 0 0 0 4px #3b82f622; }
+    .price-badge { background: var(--accent); color: #fff; font-size: .75rem; padding: .2rem .7rem; border-radius: 20px; }
+    .trial-form { background: linear-gradient(135deg, #0f172a, #1e3a5f); border-radius: 16px; padding: 40px; color: #fff; }
+    .trial-form .form-control, .trial-form .form-select { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.2); color: #fff; }
+    .trial-form .form-control::placeholder { color: rgba(255,255,255,.4); }
+    .trial-form .form-control:focus, .trial-form .form-select:focus { background: rgba(255,255,255,.12); border-color: var(--accent); box-shadow: none; color: #fff; }
+    .trial-form label { color: rgba(255,255,255,.8); }
+    .faq-btn { background: none; border: none; text-align: left; width: 100%; font-weight: 600; color: var(--text); padding: 1rem 0; }
+    section { padding: 80px 0; }
+    .section-alt { background: #f8fafc; }
+  </style>
+</head>
+<body>
+
+<nav class="lp-nav py-3">
+  <div class="container d-flex justify-content-between align-items-center">
+    <span class="brand">🏢 団地CRM</span>
+    <a href="#trial" class="btn btn-trial">無料トライアル</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="hero-badge">管理組合・不動産管理会社向け専用システム</div>
+        <h1 class="display-5 fw-bold mb-3">集合住宅の管理業務を<br>ひとつの画面に</h1>
+        <p class="fs-5 opacity-75 mb-4">住戸・入居者・管理費・修繕履歴がバラバラになっていませんか？<br>すべてを一元管理できるクラウドシステムです。</p>
+        <div class="d-flex gap-3 flex-wrap">
+          <a href="#trial" class="btn btn-trial btn-lg px-4">30日間無料で試す</a>
+          <a href="#pricing" class="btn btn-outline-light btn-lg px-4">料金を見る</a>
+        </div>
+        <p class="mt-3 opacity-50" style="font-size:.85rem">クレジットカード不要 · 初期費用なし · 途中解約自由</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="mockup">
+          <div class="text-center mb-3" style="color:rgba(255,255,255,.5); font-size:.8rem">ダッシュボードイメージ</div>
+          <div class="row g-2 mb-3">
+            <div class="col-6"><div class="mock-stat"><div style="color:#93c5fd; font-size:.75rem">管理棟数</div><div class="fw-bold fs-4">62棟</div></div></div>
+            <div class="col-6"><div class="mock-stat"><div style="color:#93c5fd; font-size:.75rem">総住戸数</div><div class="fw-bold fs-4">248戸</div></div></div>
+            <div class="col-6"><div class="mock-stat"><div style="color:#93c5fd; font-size:.75rem">入居率</div><div class="fw-bold fs-4">91%</div></div></div>
+            <div class="col-6"><div class="mock-stat"><div style="color:#fbbf24; font-size:.75rem">未収管理費</div><div class="fw-bold fs-4">3件</div></div></div>
+          </div>
+          <div style="background:rgba(255,255,255,.05); border-radius:8px; padding:12px; font-size:.8rem; color:rgba(255,255,255,.6)">
+            <div class="d-flex justify-content-between mb-1"><span>201号室 田中様</span><span style="color:#34d399">管理費 支払済</span></div>
+            <div class="d-flex justify-content-between mb-1"><span>305号室 鈴木様</span><span style="color:#fbbf24">修繕申請 対応中</span></div>
+            <div class="d-flex justify-content-between"><span>102号室 —</span><span style="color:#64748b">空室</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-2">こんな課題、ありませんか？</h2>
+    <p class="text-center text-secondary mb-5">集合住宅管理でよく聞かれるお困りごと</p>
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="pain-card">
+          <div class="fw-bold mb-1">📋 住戸情報がバラバラ</div>
+          <div class="text-secondary" style="font-size:.9rem">各棟の住戸リスト、オーナー・入居者の連絡先…ファイルや台帳が増えるばかり。</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="pain-card">
+          <div class="fw-bold mb-1">💰 管理費の未収把握が大変</div>
+          <div class="text-secondary" style="font-size:.9rem">誰がいつ払ったか、未払いの督促状況をExcelで管理するのは限界がある。</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="pain-card">
+          <div class="fw-bold mb-1">🚗 駐車場の管理が煩雑</div>
+          <div class="text-secondary" style="font-size:.9rem">どの区画が空いているか、誰が契約しているか、手書きの台帳ではすぐ古くなる。</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="pain-card">
+          <div class="fw-bold mb-1">🔧 修繕履歴が残らない</div>
+          <div class="text-secondary" style="font-size:.9rem">「この部屋、前に何の工事をしたっけ？」過去の修繕記録がどこに行ったかわからない。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="text-center fw-bold mb-2">すべての管理業務を一元化</h2>
+    <p class="text-center text-secondary mb-5">団地・マンション・アパート管理に必要な6つの機能</p>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="bi bi-building"></i></div>
+        <h6 class="fw-bold">棟・住戸管理</h6>
+        <p class="text-secondary" style="font-size:.9rem">区・棟・階・部屋番号の階層管理。住戸ごとにオーナー・入居者を紐づけ。空室状況も一覧で確認。</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="bi bi-people"></i></div>
+        <h6 class="fw-bold">入居者・オーナー管理</h6>
+        <p class="text-secondary" style="font-size:.9rem">連絡先・契約期間・家族構成をまとめて管理。入退去履歴も自動記録。</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="bi bi-car-front"></i></div>
+        <h6 class="fw-bold">駐車場管理</h6>
+        <p class="text-secondary" style="font-size:.9rem">区画番号・契約者・料金・期間を管理。空き区画の一覧表示と契約管理が簡単に。</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="bi bi-cash-stack"></i></div>
+        <h6 class="fw-bold">管理費管理</h6>
+        <p class="text-secondary" style="font-size:.9rem">月次の管理費・修繕積立金の支払い状況を記録。未収一覧と督促管理を効率化。</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="bi bi-wrench-adjustable"></i></div>
+        <h6 class="fw-bold">修繕管理</h6>
+        <p class="text-secondary" style="font-size:.9rem">修繕申請から対応完了まで追跡。住戸ごとの修繕履歴を永続記録。費用も記録可能。</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon"><i class="bi bi-download"></i></div>
+        <h6 class="fw-bold">CSV出力</h6>
+        <p class="text-secondary" style="font-size:.9rem">住戸一覧・管理費収支・入居者リストをCSVで一括出力。会計ソフトとの連携も。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt" id="pricing">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-2">管理戸数に合わせた料金</h2>
+    <p class="text-center text-secondary mb-5">初期費用なし・契約縛りなし</p>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="price-card">
+          <div class="fw-bold fs-5 mb-1">ライト</div>
+          <div class="text-secondary mb-3" style="font-size:.85rem">小規模物件向け</div>
+          <div class="fw-bold" style="font-size: 2rem; color: var(--accent)">¥2,000<span style="font-size:1rem; color:#64748b">/月</span></div>
+          <div class="text-secondary mb-3" style="font-size:.85rem">〜30戸</div>
+          <hr>
+          <ul class="list-unstyled text-secondary" style="font-size:.88rem">
+            <li class="mb-1">✓ 棟・住戸・入居者管理</li>
+            <li class="mb-1">✓ 30戸まで</li>
+            <li class="mb-1">✓ 管理費・修繕管理</li>
+            <li class="mb-1">✓ CSV出力</li>
+          </ul>
+          <a href="#trial" class="btn btn-outline-secondary w-100 mt-3">無料で試す</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="price-card featured">
+          <div class="d-flex align-items-center gap-2 mb-1">
+            <span class="fw-bold fs-5">スタンダード</span>
+            <span class="price-badge">人気</span>
+          </div>
+          <div class="text-secondary mb-3" style="font-size:.85rem">中規模物件向け</div>
+          <div class="fw-bold" style="font-size: 2rem; color: var(--accent)">¥4,000<span style="font-size:1rem; color:#64748b">/月</span></div>
+          <div class="text-secondary mb-3" style="font-size:.85rem">〜100戸</div>
+          <hr>
+          <ul class="list-unstyled text-secondary" style="font-size:.88rem">
+            <li class="mb-1">✓ ライトの全機能</li>
+            <li class="mb-1">✓ 100戸まで</li>
+            <li class="mb-1">✓ 駐車場管理</li>
+            <li class="mb-1">✓ 優先サポート</li>
+          </ul>
+          <a href="#trial" class="btn btn-trial w-100 mt-3">無料で試す</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="price-card">
+          <div class="fw-bold fs-5 mb-1">プロ</div>
+          <div class="text-secondary mb-3" style="font-size:.85rem">大規模・多物件向け</div>
+          <div class="fw-bold" style="font-size: 2rem; color: var(--accent)">¥8,000<span style="font-size:1rem; color:#64748b">/月</span></div>
+          <div class="text-secondary mb-3" style="font-size:.85rem">無制限</div>
+          <hr>
+          <ul class="list-unstyled text-secondary" style="font-size:.88rem">
+            <li class="mb-1">✓ スタンダードの全機能</li>
+            <li class="mb-1">✓ 戸数・棟数無制限</li>
+            <li class="mb-1">✓ 電話サポート</li>
+            <li class="mb-1">✓ カスタマイズ相談可</li>
+          </ul>
+          <a href="#trial" class="btn btn-outline-secondary w-100 mt-3">無料で試す</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trial">
+  <div class="container">
+    <div class="trial-form mx-auto" style="max-width:600px">
+      <h3 class="fw-bold text-center mb-2">30日間、無料で試してみる</h3>
+      <p class="text-center mb-4" style="color:rgba(255,255,255,.6); font-size:.9rem">クレジットカード不要。申込み後、1営業日以内にご連絡します。</p>
+      <form action="https://formsubmit.co/aosan.work@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="【団地CRM】トライアル申込み">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://cistus-01.github.io/irodori-lp/danchi/thanks.html">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">会社名・組合名 <span style="color:#ef4444">*</span></label>
+            <input type="text" class="form-control" name="会社名" required placeholder="〇〇管理組合 / 〇〇不動産">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">ご担当者名 <span style="color:#ef4444">*</span></label>
+            <input type="text" class="form-control" name="担当者名" required placeholder="山田 太郎">
+          </div>
+          <div class="col-12">
+            <label class="form-label">メールアドレス <span style="color:#ef4444">*</span></label>
+            <input type="email" class="form-control" name="メールアドレス" required placeholder="yamada@example.com">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">電話番号</label>
+            <input type="tel" class="form-control" name="電話番号" placeholder="03-xxxx-xxxx">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">管理戸数</label>
+            <select class="form-select" name="管理戸数">
+              <option value="">選択してください</option>
+              <option>10戸以下</option>
+              <option>11〜30戸</option>
+              <option>31〜100戸</option>
+              <option>101戸以上</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label class="form-label">ご希望のプラン</label>
+            <select class="form-select" name="希望プラン">
+              <option value="standard" selected>スタンダード（¥4,000/月・〜100戸）</option>
+              <option value="lite">ライト（¥2,000/月・〜30戸）</option>
+              <option value="pro">プロ（¥8,000/月・無制限）</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label class="form-label">ご質問・ご要望（任意）</label>
+            <textarea class="form-control" name="メッセージ" rows="2" placeholder="現在の管理状況や気になることなど"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-trial w-100 py-3 fs-5">無料トライアルを申し込む →</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="container" style="max-width:700px">
+    <h2 class="text-center fw-bold mb-5">よくある質問</h2>
+    <div class="accordion" id="faqAccordion">
+      <div class="border-bottom py-2">
+        <button class="faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq0">費用は本当にかかりませんか？</button>
+        <div class="collapse show" id="faq0">
+          <p class="text-secondary pb-2" style="font-size:.9rem">30日間は完全無料です。カード登録も不要。継続の場合のみ月額料金が発生します。</p>
+        </div>
+      </div>
+      <div class="border-bottom py-2">
+        <button class="faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">管理組合でも使えますか？</button>
+        <div class="collapse" id="faq1">
+          <p class="text-secondary pb-2" style="font-size:.9rem">はい、自主管理の管理組合・管理会社・不動産オーナーなど幅広くご利用いただけます。</p>
+        </div>
+      </div>
+      <div class="border-bottom py-2">
+        <button class="faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">既存の台帳データを移行できますか？</button>
+        <div class="collapse" id="faq2">
+          <p class="text-secondary pb-2" style="font-size:.9rem">トライアル期間中に移行サポートを行います。ExcelやCSのデータがあれば対応可能です。</p>
+        </div>
+      </div>
+      <div class="border-bottom py-2">
+        <button class="faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">スマートフォンからも使えますか？</button>
+        <div class="collapse" id="faq3">
+          <p class="text-secondary pb-2" style="font-size:.9rem">はい、スマートフォン・タブレット対応です。現場での確認・入力も可能です。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background: linear-gradient(135deg, #0f172a, #1e3a5f); color: #fff; padding: 80px 0; text-align: center;">
+  <div class="container">
+    <h2 class="fw-bold mb-3">まずは無料で試してみませんか？</h2>
+    <p class="opacity-75 mb-4">30日間の無料トライアル。解約はいつでも可能です。</p>
+    <a href="#trial" class="btn btn-trial btn-lg px-5">無料トライアルを申し込む</a>
+  </div>
+</section>
+
+<footer class="py-4 text-center text-secondary" style="font-size:.82rem; background:#f8fafc;">
+  <p class="mb-1">団地CRM — 集合住宅・団地管理システム</p>
+  <p class="mb-0">お問い合わせ: <a href="mailto:aosan.work@gmail.com" style="color:#6366f1">aosan.work@gmail.com</a> | <a href="../kensetsu/" style="color:#6366f1">建設業向けCRMはこちら</a></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
